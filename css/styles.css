@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.relleno-lateral {
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+.relleno-columnas {
+    padding-right: 20px;
+}
+
+body {
+    margin: 0;
+}
+
+#header {
+    text-align: center;
+    background-image: url('../img/banner-2.jpg');
+    background-size: cover;
+    padding: 30vh 100px;
+    height: 100vh;
+    font-size: 50px;
+}
+
+
+/* sección 1 */
+
+.column {
+    width: 50%;
+    float: left;
+}
+
+#negro {
+    font-weight: bold;
+    font-size: 60px;
+    text-align: left;
+}
+
+#texto {
+    font-size: 40px;
+    text-align: left;
+}
+
+#imagen {
+    width: 80vh;
+    padding-top: 60px;
+}
+
+
+/* sección 2 */
+
+#section-2 {
+    background-color: #28ECA5;
+    font-size: 45px;
+    text-align: center;
+}
+
+.title-area {
+    font-size: 15px;
+}
+
+.column-1 {
+    width: 100%;
+    float: left;
+}
+
+.column-2 {
+    width: 25%;
+    float: left;
+    padding-bottom: 5px;
+}
+
+#header-2 {
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 65px;
+    text-align: center;
+}
+
+
+/* sección-3 */
+
+.column-3 {
+    width: 50%;
+    float: left;
+}
+
+#imagen-2 {
+    width: 80vh;
+    padding-top: 140px;
+}
+
+#negro-2 {
+    font-weight: bold;
+    font-size: 75px;
+    text-align: left;
+}
+
+#texto-2 {
+    font-size: 40px;
+    text-align: left;
+}
+
+
+/* sección-4 */
+
+#imagenes {
+    float: left;
+    width: 25%;
+}
+
+
+/* sección- */
+
+#section-5 {
+    background-color: #509ea0;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+
+
+/* sección-6 */
+
+#cosas {
+    background-color: black;
+    color: white;
+}
+
+.column-5 {
+    width: 50%;
+    float: left;
+    padding: 40px;
+}
+
+.column-6 {
+    width: 25%;
+    float: left;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.column-7 {
+    width: 25%;
+    float: left;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
